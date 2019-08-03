@@ -3,7 +3,7 @@ using UnityEngine;
 using System;
 using System.Collections;
 
-public class KinectParentJoint : MonoBehaviour {
+public class AzureKinectParentJoint : MonoBehaviour {
 	
 	[Tooltip("Index of the player, tracked by this component. 0 means the 1st player, 1 - the 2nd one, 2 - the 3rd one, etc.")]
 	public int playerIndex = 0;
@@ -114,6 +114,7 @@ public class KinectParentJoint : MonoBehaviour {
 	
 
 	void Update() {
+        /*
 		KinectManager manager = KinectManager.Instance;
 		
 		// get 1st player
@@ -214,6 +215,7 @@ public class KinectParentJoint : MonoBehaviour {
 				}
 			}	
 		}
+        */
 	}
 
 }
